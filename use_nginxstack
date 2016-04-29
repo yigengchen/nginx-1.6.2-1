@@ -1,0 +1,6 @@
+#!/bin/sh
+
+PATH="/data1/app/nginxstack-1.6.2-1/sqlite/bin:/data1/app/nginxstack-1.6.2-1/nginx/sbin:/data1/app/nginxstack-1.6.2-1/php/bin:/data1/app/nginxstack-1.6.2-1/mysql/bin:/data1/app/nginxstack-1.6.2-1/common/bin:$PATH"
+
+exec /bin/bash --noprofile --norc
+                    

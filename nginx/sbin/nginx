@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /work/data/src/nginxstack-1.6.2-1/scripts/setenv.sh
+
+exec /work/data/src/nginxstack-1.6.2-1/nginx/sbin/.nginx.bin -p /work/data/src/nginxstack-1.6.2-1/nginx/ "$@"

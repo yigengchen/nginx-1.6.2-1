@@ -1,0 +1,13 @@
+SERF_MAJOR_VERSION=1
+prefix=/data1/app/nginxstack-1.6.2-1/common/lib
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/serf-1
+
+Name: serf
+Description: HTTP client library
+Version: 1.3.1
+Requires.private: libssl libcrypto
+Libs: -L${libdir} -lserf-${SERF_MAJOR_VERSION}
+Libs.private: /data1/app/nginxstack-1.6.2-1/common/lib/libaprutil-1.la -lldap -llber    -lexpat -liconv /data1/app/nginxstack-1.6.2-1/common/lib/libapr-1.la -lrt -lcrypt  -lpthread -ldl None -lz
+Cflags: -I${includedir}

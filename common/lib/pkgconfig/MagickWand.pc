@@ -1,0 +1,11 @@
+prefix=/data1/app/nginxstack-1.6.2-1/common
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/ImageMagick
+
+Name: MagickWand
+Version: 6.7.5
+Description:  MagickWand - C API for ImageMagick
+Requires: ImageMagick
+Libs: -L${libdir} -lMagickWand -lMagickCore
+Cflags: -I${includedir} 

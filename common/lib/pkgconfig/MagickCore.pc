@@ -1,0 +1,10 @@
+prefix=/data1/app/nginxstack-1.6.2-1/common
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/ImageMagick
+
+Name: MagickCore
+Description: MagickCore - C API for ImageMagick
+Version: 6.7.5
+Libs: -L${libdir} -lMagickCore
+Cflags: -I${includedir} 

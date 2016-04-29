@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /data1/app/nginxstack-1.6.2-1/scripts/setenv.sh
+
+exec /data1/app/nginxstack-1.6.2-1/common/bin/.gettext.bin  "$@"

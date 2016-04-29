@@ -1,0 +1,19 @@
+============ CHANGELOG =============
+
+Version 1.6.2-1      2014-10-16
+* Disabled SSLv3 protocol by default.
+* Added OCI8 module. It requires InstantClient 11.2.
+* Updated phpMyAdmin to 4.2.9.1
+* Updated MySQL to 5.5.40
+* Updated PHP to 5.4.33
+
+Version 1.6.2-0      2014-09-23
+* Updated Nginx to 1.6.2
+
+Version 1.6.1-0      2014-08-25
+* Updated phpMyAdmin to 4.2.8
+* Updated MySQL to 5.5.39
+* Updated PHP to 5.4.32
+* Initial release
+* Bundles with Nginx 1.6.1, PHP 5.4.31, MySQL 5.5.38 and
+phpMyAdmin 4.2.7.1
